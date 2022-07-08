@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/portfolioQuery.css" />
+    <!-- Font Secular one -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ion icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="temp-logo">Logo goes here</p>
+      <button class="btn-mobile">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      </button>
+      <nav class="main-nav">
+        <button class="btn-mobile-nav">
+          <!-- <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon> -->
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+        <ul class="main-nav-list">
+          <ul>
+            <a href="index.html#section-about-me" class="main-nav-link"
+              >About Me</a
+            >
+          </ul>
+          <ul>
+            <a href="index.html#section-features" class="main-nav-link"
+              >Product Features</a
+            >
+          </ul>
+          <ul>
+            <a href="index.html" class="main-nav-link">Skills</a>
+          </ul>
+          <ul>
+            <a href="#section-portfolio" class="main-nav-link">Portfolio</a>
+          </ul>
+          <ul>
+            <a href="index.html#section-cta" class="nav-cta main-nav-link"
+              >Contact Me</a
+            >
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="my-3 mx-4" id="section-portfolio">
+        <div class="container my-3 mx-3">
+          <span class="subheading">Portfolio</span>
+          <h2 class="heading-secondary">
+            Checkout my recent work and Pet-projects
+          </h2>
+        </div>
+        <!-- </div> -->
+        <div class="container my-5 mx-5">
+          <div class="grid grid-col-3">
+            <!-- OMNIFOOD -->
+            <div class="portfolio-card">
+              <div class="portfolio-img-box">
+                <img class="portfolio-img" src="img/omnifood.jpg" alt="" />
+              </div>
+              <div class="portfolio-text-box">
+                <span class="tag tag-yellow">Pet-Project</span>
+                <p class="portfolio-title">Omnifood Project</p>
+                <p class="portfolio-description">
+                  Landing page for food delivery startup
+                </p>
+              </div>
+              <div class="portfolio-button-area">
+                <a href="omnifood.html" class="portfolio-btn">Details &rarr;</a>
+              </div>
+            </div>
+
+            <!-- devconnector -->
+            <div class="portfolio-card">
+              <div class="portfolio-img-box">
+                <img class="portfolio-img" src="img/showcase.jpg" alt="" />
+              </div>
+              <div class="portfolio-text-box">
+                <span class="tag tag-yellow">Pet-Project</span>
+                <p class="portfolio-title">DevConnect</p>
+                <p class="portfolio-description">
+                  Social media platform for developers
+                </p>
+              </div>
+              <div class="portfolio-button-area">
+                <a href="devconnect.html" class="portfolio-btn"
+                  >Details &rarr;</a
+                >
+              </div>
+            </div>
+
+            <!-- ProShop -->
+            <div class="portfolio-card">
+              <div class="portfolio-img-box">
+                <img class="portfolio-img" src="img/proshop.png" alt="" />
+              </div>
+              <div class="portfolio-text-box">
+                <span class="tag tag-yellow">Pet-Project</span>
+                <p class="portfolio-title">ProShop</p>
+                <p class="portfolio-description">
+                  E-Commerce store for electronic products
+                </p>
+              </div>
+              <div class="portfolio-button-area">
+                <a href="proshop.html" class="portfolio-btn">Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>

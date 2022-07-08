@@ -1,0 +1,73 @@
+/*- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* 1) Below 1100px */
+@media (max-width: 68.75rem) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+  .hero-description {
+    font-size: 3.2rem;
+  }
+  .section-hero {
+    height: 50rem;
+  }
+  .hero {
+    top: 50%;
+  }
+}
+
+/* 2) Below 1000px */
+@media (max-width: 62.5rem) {
+  .custom-shape-divider-bottom-1652342433 svg {
+    height: 270px;
+  }
+  .section-hero {
+    height: 46rem;
+  }
+  .hero {
+    top: 46%;
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+  .hero-description {
+    font-size: 2.8rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.4rem 2.8rem;
+  }
+}
+
+/* 3) Below 832px */
+@media (max-width: 52rem) {
+  .custom-shape-divider-bottom-1652342433 svg {
+    height: 200px;
+  }
+  .section-hero {
+    height: 35rem;
+  }
+  .hero {
+    top: 45%;
+  }
+  .heading-primary {
+    font-size: 3.8rem;
+  }
+  .hero-description {
+    font-size: 2.4rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.6rem;
+  }
+}
+
+/* fix uptil 758 */
