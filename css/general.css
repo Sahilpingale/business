@@ -230,3 +230,6 @@ a.disabled {
   pointer-events: none;
   cursor: default;
 }
+ul {
+  list-style-type: none;
+}

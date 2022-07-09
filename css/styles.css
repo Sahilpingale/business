@@ -112,7 +112,8 @@ header {
   color: #339af0;
 }
 .temp-logo {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 .main-nav-link.nav-cta {
   background-color: #339af0;
@@ -209,6 +210,7 @@ header {
   font-size: 2.4rem;
   color: #666;
   line-height: 1.8;
+  margin-top: 1.2rem;
 }
 
 /************SECTION-FEATURES*************/
@@ -251,6 +253,9 @@ header {
   margin-top: 12.8rem;
   margin-bottom: 12.8rem;
 }
+.section-process .container {
+  margin-bottom: 5.6rem;
+}
 .process-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -288,7 +293,16 @@ header {
 .cta-subheading {
   display: block;
   font-size: 2.4rem;
+  /* margin-bottom: 6.4rem; */
+  /* margin-bottom: 2.4rem; */
+}
+.cta-lets {
+  margin-top: 6.4rem;
   margin-bottom: 6.4rem;
+  margin-right: 12rem;
+}
+.cta-talk {
+  margin-left: 12rem;
 }
 .cta-heading {
   font-size: 10rem;
@@ -299,8 +313,10 @@ header {
   background-color: #e7f5ff;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
-  padding: 6.4rem;
+  /* padding: 6.4rem; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  /* text-align: center; */
+  padding: 6.4rem 10.2rem;
 }
 .section-cta .grid {
   gap: 0;
@@ -316,7 +332,7 @@ header {
   background-color: #143e60;
   color: #fff;
   border: none;
-  width: 80%;
+  width: 100%;
   transition: all 0.3s;
 }
 .form-btn:hover,
@@ -330,7 +346,7 @@ header {
   margin-bottom: 1.2rem;
 }
 .cta-form-box input {
-  width: 80%;
+  width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
@@ -406,7 +422,7 @@ header {
   margin-bottom: 9.6rem;
 }
 .section-portfolio .container {
-  margin-bottom: 9.6rem;
+  margin-bottom: 6.4rem;
 }
 .portfolio-card {
   border-radius: 12px;
@@ -495,6 +511,10 @@ footer {
   margin-top: 20rem;
   padding: 2.4rem 0;
   background-color: #d0ebff;
+}
+.section-footer .grid {
+  justify-items: center;
+  column-gap: 0;
 }
 .logo-col {
   display: flex;

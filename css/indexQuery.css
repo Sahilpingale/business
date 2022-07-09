@@ -5,8 +5,11 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+/********************/
 /* 1) Below 1100px */
+/********************/
 @media (max-width: 68.75rem) {
+  /* Section-Hero */
   .heading-primary {
     font-size: 4.8rem;
   }
@@ -19,10 +22,46 @@
   .hero {
     top: 50%;
   }
+  /* Grid */
+  .grid {
+    column-gap: 5.4rem;
+    row-gap: 7.6rem;
+  }
+  /* Flex */
+  .flex {
+    gap: 0.8rem;
+  }
+  /* Section CTA */
+  /* .cta-form-box {
+    padding: 6.4rem 8.2rem;
+  } */
+  .cta-form-box {
+    padding-inline: min(8vh, 3.4rem);
+  }
+  .cta-text-box {
+    padding-inline: min(8vh, 3.2rem);
+  }
 }
-
+/********************/
 /* 2) Below 1000px */
+/********************/
 @media (max-width: 62.5rem) {
+  /* General */
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+  }
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+
+  /* Section-Hero */
   .custom-shape-divider-bottom-1652342433 svg {
     height: 270px;
   }
@@ -31,10 +70,7 @@
   }
   .hero {
     top: 46%;
-  }
-
-  .heading-primary {
-    font-size: 4.2rem;
+    left: 53%;
   }
   .hero-description {
     font-size: 2.8rem;
@@ -44,10 +80,57 @@
     font-size: 1.8rem;
     padding: 1.4rem 2.8rem;
   }
+
+  /* Section About Me */
+  .about-me-text {
+    font-size: 2.1rem;
+    line-height: 1.7;
+  }
+  /* Section Features */
+  .feature-icon svg {
+    height: 28px;
+    width: 28px;
+  }
+
+  /* Section How it Works(process) */
+  .process-grid {
+    row-gap: 7.6rem;
+  }
+  .process-description {
+    font-size: 2.2rem;
+  }
+
+  /* Section CTA */
+  /* .cta-form-box {
+    padding: 6.4rem 6.4rem;
+  } */
+
+  /* Section Portfolio */
+  .section-portfolio .grid {
+    column-gap: 4.4rem;
+  }
 }
 
+/********************/
 /* 3) Below 832px */
+/********************/
 @media (max-width: 52rem) {
+  /* General */
+  .heading-primary {
+    font-size: 3.8rem;
+  }
+  .heading-secondary {
+    font-size: 2.7rem;
+  }
+  .subheading {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .heading-tertiary {
+    font-size: 2.6rem;
+  }
+
+  /* Section-Hero */
   .custom-shape-divider-bottom-1652342433 svg {
     height: 200px;
   }
@@ -56,9 +139,8 @@
   }
   .hero {
     top: 45%;
-  }
-  .heading-primary {
-    font-size: 3.8rem;
+    left: 53%;
+    padding: 0 2.4rem;
   }
   .hero-description {
     font-size: 2.4rem;
@@ -68,6 +150,164 @@
     font-size: 1.6rem;
     padding: 1.2rem 2.6rem;
   }
+
+  /* Section About Me */
+  .about-me-text {
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+  /* Section Features */
+  .feature-description {
+    font-size: 1.8rem;
+  }
+  .feature-box {
+    gap: 2.4rem;
+  }
+  .feature-icon svg {
+    height: 24px;
+    width: 24px;
+  }
+  .section-features .grid {
+    row-gap: 3.6rem;
+  }
+
+  /*Section How it works(process)  */
+  .process-description {
+    font-size: 2rem;
+  }
+  .process-number {
+    font-size: 7.6rem;
+  }
+
+  /* Section-CTA */
+  .cta-subheading {
+    font-size: 2.2rem;
+  }
+  .cta-heading {
+    font-size: 8rem;
+  }
+
+  /* Section Portfolio */
+  .section-portfolio .grid {
+    column-gap: 4.4rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5.4rem;
+    padding-inline: 3.2rem;
+  }
+  .section-portfolio .flex {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
 }
 
-/* fix uptil 758 */
+/***************/
+/* Below 708px */
+/***************/
+@media (max-width: 44.25rem) {
+  /* Section Hero */
+  .section-hero {
+    height: 59rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    top: 57%;
+    padding: 0 4.4rem;
+    text-align: center;
+    gap: 5.4rem;
+  }
+
+  .hero-img-box {
+    position: relative;
+    grid-row: 2/3;
+  }
+  .hero-img-box img {
+    width: 50%;
+  }
+
+  /* Section About Me */
+  .section-about-me .grid {
+    column-gap: 5.4rem;
+    row-gap: 4.6rem;
+  }
+  .section-about-me .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-about-me .about-me-img-box {
+    text-align: center;
+    grid-row: 2/3;
+  }
+  .section-about-me .about-me-img-box img {
+    width: 60%;
+  }
+
+  /* Section Features */
+  .section-features .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-features .container {
+    padding: 0px 4.2rem;
+  }
+
+  /* Section How it works(process) */
+  .process-grid {
+    row-gap: 8rem;
+  }
+  .section-process .grid {
+    row-gap: 5.5rem;
+  }
+  .process-text-box {
+    display: flex;
+    gap: 4.4rem;
+    margin: 0 auto;
+  }
+  .process-img-box {
+    text-align: center;
+  }
+  .section-process .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .process-img-box img {
+    width: 80%;
+  }
+  .step-2__text {
+    grid-row: 1/2;
+  }
+  .step-4__text {
+    grid-row: 1/2;
+  }
+  .step-6__text {
+    grid-row: 1/2;
+  }
+
+  /* Section CTA */
+  .section-cta .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .cta-text-box {
+    padding: 4.4rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+  }
+  .cta-lets {
+    margin-top: 4.4rem;
+    margin-bottom: 5.4rem;
+  }
+  .cta-form-box {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 12px;
+    padding-inline: 5.6rem;
+  }
+  .section-cta .grid {
+    padding-inline: 4.8rem;
+  }
+}
+
+/***************/
+/* Below 568px */
+/***************/
+@media (max-width: 35.5rem) {
+  .section-portfolio .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
