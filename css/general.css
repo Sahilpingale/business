@@ -234,3 +234,7 @@ a.disabled {
 ul {
   list-style-type: none;
 }
+::placeholder {
+  color: #999;
+  opacity: 1; /* Firefox */
+}
