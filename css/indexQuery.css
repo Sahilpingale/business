@@ -139,7 +139,8 @@
   }
   .hero {
     top: 45%;
-    left: 53%;
+    /* left: 53%; */
+    left: 50%;
     padding: 0 2.4rem;
   }
   .hero-description {
@@ -155,6 +156,9 @@
   .about-me-text {
     font-size: 1.8rem;
     line-height: 1.7;
+  }
+  .section-about-me .grid {
+    column-gap: 2.4rem;
   }
 
   /* Section Features */
@@ -173,6 +177,10 @@
   }
 
   /*Section How it works(process)  */
+  .process-grid {
+    row-gap: 7.6rem;
+    padding: 0;
+  }
   .process-description {
     font-size: 2rem;
   }
@@ -202,7 +210,7 @@
 }
 
 /***************/
-/* Below 708px */
+/* 4) Below 708px */
 /***************/
 @media (max-width: 44.25rem) {
   /* Section Hero */
@@ -246,13 +254,14 @@
     grid-template-columns: 1fr;
   }
   .section-features .container {
-    padding: 0px 4.2rem;
+    padding: 0px 3.2rem;
   }
 
   /* Section How it works(process) */
   .process-grid {
     row-gap: 8rem;
   }
+
   .section-process .grid {
     row-gap: 5.5rem;
   }
@@ -299,15 +308,118 @@
     padding-inline: 5.6rem;
   }
   .section-cta .grid {
-    padding-inline: 4.8rem;
+    padding-inline: 3.2rem;
+  }
+
+  /* Section Portfolio */
+  .section-portfolio .grid {
+    padding-inline: 0;
+    column-gap: 3.2rem;
+  }
+  /* Section Footer */
+  .section-footer .grid-col-4 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /***************/
-/* Below 568px */
+/* 5) Below 568px */
 /***************/
 @media (max-width: 35.5rem) {
+  /* Section Hero */
+  .hero-img-box img {
+    width: 60%;
+  }
+  /* Section How It works */
+  .process-text-box {
+    display: block;
+    margin: 0;
+  }
+
+  /*Section Portfolio  */
   .section-portfolio .grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .mb-1 {
+    margin-bottom: 0;
+  }
+}
+/****************/
+/*6) Below 480px */
+/****************/
+@media (max-width: 30rem) {
+  /* General */
+  .container {
+    padding: 0 2.4rem;
+  }
+  /* Section Hero */
+  .hero-img-box img {
+    width: 70%;
+  }
+
+  /* Section Featues */
+  .section-features .container {
+    padding: 0px 2.4rem;
+  }
+  .feature-icon svg {
+    height: 22px;
+    width: 22px;
+  }
+  .feature-box {
+    gap: 1.2rem;
+  }
+
+  /* Section How it works (process) */
+  .process-grid {
+    padding: 0;
+  }
+  .process-number {
+    font-size: 7rem;
+  }
+
+  /* Section CTA */
+  .section-cta .grid {
+    padding-inline: 2.4rem;
+  }
+  .cta-form-box {
+    padding-inline: 3.2rem;
+  }
+}
+
+/**************/
+/*7) Below 432px*/
+/**************/
+@media (max-width: 27rem) {
+  /* Section CTA */
+  .cta-text-box {
+    padding: 4.4rem 2.4rem;
+  }
+}
+
+/****************/
+/*8) Below 387px */
+/****************/
+@media (max-width: 24.1875rem) {
+  /* Section CTA */
+  .cta-form-box {
+    padding: 4.4rem 2.2rem;
+  }
+  .cta-lets {
+    margin-right: 7rem;
+  }
+  .cta-talk {
+    margin-left: 7rem;
+  }
+  .cta-heading {
+    font-size: 6rem;
+  }
+  .cta-text-box {
+    padding: 4.4rem 2.4rem;
+  }
+}
+
+/***************/
+/*9) Below 323px */
+/***************/
+@media (max-width: 20.1875rem) {
 }
