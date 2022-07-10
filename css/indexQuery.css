@@ -27,10 +27,7 @@
     column-gap: 5.4rem;
     row-gap: 7.6rem;
   }
-  /* Flex */
-  .flex {
-    gap: 0.8rem;
-  }
+
   /* Section CTA */
   /* .cta-form-box {
     padding: 6.4rem 8.2rem;
@@ -44,6 +41,11 @@
   /* Section Portfolio */
   .section-portfolio .grid {
     padding-inline: 3.4rem;
+  }
+  .portfolio-external-btn:link,
+  .portfolio-external-btn:visited {
+    padding: 0;
+    transform: translateX(8px);
   }
 }
 /********************/
@@ -112,6 +114,11 @@
   .section-portfolio .grid {
     column-gap: 4.4rem;
     padding-inline: 0;
+  }
+  .portfolio-external-btn:link,
+  .portfolio-external-btn:visited {
+    padding: 0;
+    transform: translateX(20px);
   }
 }
 
@@ -209,6 +216,11 @@
   .section-portfolio .flex {
     flex-direction: column;
     gap: 3.2rem;
+  }
+  .portfolio-external-btn:link,
+  .portfolio-external-btn:visited {
+    padding: 0;
+    transform: translateX(0);
   }
 }
 
