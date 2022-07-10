@@ -328,7 +328,7 @@
 @media (max-width: 35.5rem) {
   /* Section Hero */
   .hero-img-box img {
-    width: 60%;
+    width: 55%;
   }
   /* Section How It works */
   .process-text-box {
@@ -357,7 +357,7 @@
   }
   /* Section Hero */
   .hero-img-box img {
-    width: 70%;
+    width: 65%;
   }
 
   /* Section Featues */
@@ -399,7 +399,7 @@
 @media (max-width: 27rem) {
   /*Section Hero  */
   .hero-img-box img {
-    width: 75%;
+    width: 70%;
   }
   /* Hero Wave */
   .custom-shape-divider-bottom-1652342433 svg {
@@ -420,7 +420,7 @@
 @media (max-width: 24.1875rem) {
   /* Section Hero */
   .hero-img-box img {
-    width: 80%;
+    width: 75%;
   }
   /* Section CTA */
   .cta-form-box {
