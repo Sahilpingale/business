@@ -220,7 +220,7 @@
   .hero {
     grid-template-columns: 1fr;
     top: 57%;
-    padding: 0 4.4rem;
+    padding: 0 3.4rem;
     text-align: center;
     gap: 5.4rem;
   }
@@ -230,7 +230,7 @@
     grid-row: 2/3;
   }
   .hero-img-box img {
-    width: 50%;
+    width: 47%;
   }
 
   /* Section About Me */
@@ -352,6 +352,9 @@
   .container {
     padding: 0 2.4rem;
   }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
   /* Section Hero */
   .hero-img-box img {
     width: 70%;
@@ -374,7 +377,11 @@
     padding: 0;
   }
   .process-number {
-    font-size: 7rem;
+    font-size: 6.5rem;
+  }
+  .process-description {
+    font-size: 1.8rem;
+    line-height: 1.6;
   }
 
   /* Section CTA */
@@ -390,6 +397,17 @@
 /*7) Below 432px*/
 /**************/
 @media (max-width: 27rem) {
+  /*Section Hero  */
+  .hero-img-box img {
+    width: 75%;
+  }
+  /* Hero Wave */
+  .custom-shape-divider-bottom-1652342433 svg {
+    height: 170px;
+  }
+  .hero {
+    padding: 0 2.4rem;
+  }
   /* Section CTA */
   .cta-text-box {
     padding: 4.4rem 2.4rem;
@@ -400,6 +418,10 @@
 /*8) Below 387px */
 /****************/
 @media (max-width: 24.1875rem) {
+  /* Section Hero */
+  .hero-img-box img {
+    width: 80%;
+  }
   /* Section CTA */
   .cta-form-box {
     padding: 4.4rem 2.2rem;
@@ -422,4 +444,8 @@
 /*9) Below 323px */
 /***************/
 @media (max-width: 20.1875rem) {
+  /* Hero Wave */
+  .custom-shape-divider-bottom-1652342433 svg {
+    height: 129px;
+  }
 }
