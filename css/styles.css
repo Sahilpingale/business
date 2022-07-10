@@ -115,6 +115,11 @@ header {
   font-size: 3.2rem;
   font-family: 'Montserrat', sans-serif;
 }
+.footer-temp-logo {
+  font-size: 3.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .main-nav-link.nav-cta {
   background-color: #339af0;
   color: #fff;
