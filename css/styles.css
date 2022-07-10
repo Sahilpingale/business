@@ -434,6 +434,9 @@ header {
 .section-portfolio .container {
   margin-bottom: 6.4rem;
 }
+.section-portfolio .grid {
+  padding-inline: 4.4rem;
+}
 .portfolio-card {
   border-radius: 12px;
   overflow: hidden;

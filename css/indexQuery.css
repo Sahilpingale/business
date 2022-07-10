@@ -41,6 +41,10 @@
   .cta-text-box {
     padding-inline: min(8vh, 3.2rem);
   }
+  /* Section Portfolio */
+  .section-portfolio .grid {
+    padding-inline: 3.4rem;
+  }
 }
 /********************/
 /* 2) Below 1000px */
@@ -70,7 +74,6 @@
   }
   .hero {
     top: 46%;
-    left: 53%;
   }
   .hero-description {
     font-size: 2.8rem;
@@ -108,6 +111,7 @@
   /* Section Portfolio */
   .section-portfolio .grid {
     column-gap: 4.4rem;
+    padding-inline: 0;
   }
 }
 
@@ -140,7 +144,6 @@
   .hero {
     top: 45%;
     /* left: 53%; */
-    left: 50%;
     padding: 0 2.4rem;
   }
   .hero-description {
@@ -201,7 +204,7 @@
     column-gap: 4.4rem;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5.4rem;
-    padding-inline: 3.2rem;
+    /* padding-inline: 3.2rem; */
   }
   .section-portfolio .flex {
     flex-direction: column;
@@ -220,6 +223,7 @@
   .hero {
     grid-template-columns: 1fr;
     top: 57%;
+
     padding: 0 3.4rem;
     text-align: center;
     gap: 5.4rem;
@@ -234,6 +238,10 @@
   }
 
   /* Section About Me */
+  /* Test-General */
+  .container {
+    padding: 0 3.2rem;
+  }
   .section-about-me .grid {
     column-gap: 5.4rem;
     row-gap: 4.6rem;
