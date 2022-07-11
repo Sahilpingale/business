@@ -515,6 +515,9 @@ header {
 .tag-yellow {
   background-color: #ffd43b;
 }
+.tag-green {
+  background-color: #51cf66;
+}
 
 /* **************SECTION-FOOTER**************** */
 footer {
